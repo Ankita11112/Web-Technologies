@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>my 3rd practical wt</title>
+</head>
+
+<style>
+body{
+background : pink;
+margin-left:40px;
+}
+
+</style>
+<body><br><br><br><br>
+<center>
+<marquee direction ="right" bgcolor="yellow"   width= "500px" behaviour = "alternate"> 
+<h1> Registration Form</h1>
+</marquee></center>
+
+<form action="/action_page.php" target="_blank" method="get">
+<ol><b>
+<li>Enter Your Name :<input type="text" value=""> &nbsp &nbsp 
+<li>Enter Your Father's Name :<input type="text" value=""><br><br>
+<li>User name :<input type="text" value=""><br><br>
+<li>Hobbies :
+<ul>
+<li type="square"><input type="radio" value="">dance<br>
+ <li type="square"><input type="radio" value="">singing
+ <li type="square"><input type="radio" value="">reading
+<li type="square"><input type="radio" value="">cooking 
+</ul><br><br>
+ <li> Address :<br>
+<textarea rows=5 cols=40> </textarea><br><br>
+<li>Select City :
+<select>
+<option>ludhiana
+<option>jalandhar
+<option>chandigarh
+<option>amritsar
+</select><br><br>
+
+<li>Interested Games :
+<select size="3">
+<option>volleyball
+<option>cricket
+<option>basketball
+<option>handball
+<option>badminton
+<option>hockey
+</select><br><br><br>
+
+<center>
+ <input type="submit" value="submit">
+  <input type="reset" value="clear all">
+   <input type="button" value="next">
+
+</ol>
+</form>
+</body>
+<html>
+
