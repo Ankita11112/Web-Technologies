@@ -1,0 +1,42 @@
+Code:-
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 2px solid black;
+}
+</style>
+</head>
+<body>
+<center>
+<h2><u>Department Wise Information</u></h2></center>
+<table style="width:100%">
+  <tr>
+    <th>Department</th>
+    <th>Information about Department</th> 
+  </tr>
+  
+  <tr>
+    <td>Coputer Science Department</td>
+    <td><a href=<a href="https://it.gndec.ac.in/"> CSE</a></td>
+  </tr>
+  <tr>
+    <td>Information Technology</td>
+    <td><a href="https://it.gndec.ac.in/">It Department</a></td>
+  </tr>
+  <tr>
+    <td>Applied Science</td>
+    <td><a href="https://appsc.gndec.ac.in/">Applied Science</a></td>
+  </tr>
+</table>
+<ol>
+<li> <a href="https://cse.gndec.ac.in/?q=node/6">visionofCSE department</a></li>
+<li> <a href="https://it.gndec.ac.in/?q=node/6">vision of IT department</a></li>
+</ol>
+<br>
+<ul>
+<li> <a href="https://apps.gndec.ac.in/shared/vkD6rZ1UCpn-w4HetTHYiCiHDQiiDvIwSAULAbaGVYs">Notice Board</a></li>
+</ol>
+</body>
+</html>
