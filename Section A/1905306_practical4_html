@@ -1,0 +1,109 @@
+  
+(a)Inline css
+
+!DOCTYPE html>
+<html>
+<head>
+<title>inline css</title>
+</head>
+
+<body bgcolor=pink>
+<center>
+<h1 style="font-size:60px;"> Using Inline Css</h1>
+<h1 style="background:yellow; color:blue; font-size:50px;">A Blue Heading</h1>
+<h2 style="color:red;font-size:40px;">A red paragraph.</p>
+
+</body>
+</html>
+
+(b)Internal css
+
+<!DOCTYP HTML>
+<html>
+<head>
+<title>Internal Css</title>
+</head>
+<style>
+body{
+background:pink;
+margin-left:1in;
+margin-right:1in;
+margin-top:60px;
+}
+
+h1{
+color:red;
+background:green;
+font-size:40px;
+text-align:center;
+font-tyle:italic;
+font-family:arial;
+text-decoration:underline;}
+
+p{
+color:blue;
+background:yellow;
+word-spacing:10px;
+font-weight:bold;
+text-decoration:underline;
+letter-spacing:2px;
+line-height:40px;
+margin-top:60px;}
+</style>
+<body>
+<h1> Internal Css</h1>
+<p>
+CSS is the acronym of “Cascading Style Sheets”.
+ CSS is a computer language for laying out and structuring web pages (HTML or XML).
+ This language contains coding elements and is composed of these “cascading style sheets” which are equally called CSS files 
+ </p>
+
+</body>
+</html>
+
+(b)External css
+1.STYLE SHEET
+body{
+background:green;
+margin-left:1in;
+margin-right:1in;
+margin-top:60px;
+}
+
+h1{
+color:blue;
+background:red;
+font-size:40px;
+text-align:center;
+font-style:bold;
+font-family:arial;
+text-decoration:underline;}
+
+p{
+color:blue;
+background:yellow;
+word-spacing:5px;
+font-weight:itali;
+text-decoration:underline
+letter-spacing:1px;
+line-height:40px;
+margin-top:60px;}
+
+2.FILE
+<!DOCTYPE htm>
+<HTML>
+<HEAD>
+<TITLE>External Css</title>
+</head>
+<link rel="stylesheet" href="external.css">
+
+<body>
+<h1> External Css</h1>
+<p>
+External CSS: External CSS contains separate CSS file which contains only style property with the help of tag attributes 
+(For example class, id, heading, … etc). CSS property written in a separate file with . 
+css extension and should be linked to the HTML document using link tag.
+ </p>
+
+</body>
+</html>
